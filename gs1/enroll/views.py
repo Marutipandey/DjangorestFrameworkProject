@@ -1,8 +1,6 @@
 import json
 from django.http import HttpResponse,JsonResponse
-from django.shortcuts import render
-
-
+from django.shortcuts import render  
 from enroll.models import Student
 from enroll.serializers import StudentSerializer
 from rest_framework.renderers import JSONRenderer
